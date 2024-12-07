@@ -1,6 +1,6 @@
 ---
 - name: Deploy traefik v2.5
-  hosts: "{{ my_hosts | d([]) }}"
+  hosts: my_hosts 
 
   tasks:
     - name: Deploy traefik
